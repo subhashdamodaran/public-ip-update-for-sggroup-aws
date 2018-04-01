@@ -7,6 +7,17 @@ Solution
 ========
 Written a python script to loop through profiles and sg groups and update the latest public IP of the home/office recursively in all the security groups.
 
+Prerequisite
+============
+
+- Shoudl have ~/.aws/credentials configured
+
+- Should have python installed with the depended modules (boto3, os, requests etc)
+
+- +x permission sould be given to the python script
+
+- Settings option in the code should be udpated accordinlgy. (profiles, region, CidrDescription etc)
+
 Instructions
 ============
 
