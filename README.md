@@ -11,7 +11,10 @@ Instructions
 ============
 
 # Configure the ~/.aws/credentials file with all the profiles which we want to manage
-
 # Install boto3 (python)
-
 # Install requests (python)
+
+#Settings  | The following are hardcoded in the code now. Will be updating soon
+CidrDescription = "Subhash Home Network"
+profiles = ['default','canon']
+region = 'ap-southeast-1'
