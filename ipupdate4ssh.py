@@ -6,7 +6,7 @@ import os
 
 #Settings
 CidrDescription = "Subhash Home Network"
-profiles = ['default','canon']
+profiles = ['default','myprofile1']
 region = 'ap-southeast-1'
 
 myList = []
